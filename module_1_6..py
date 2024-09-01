@@ -1,0 +1,16 @@
+my_dict = {'Denis': 1975,'Andrey':1980}
+print(my_dict)
+print(my_dict.get('Denis'))
+print(my_dict.get('Igor','Такого значения нет'))
+my_dict.update({'Vera':1977,'Semen':1987})
+print(my_dict)
+a = my_dict. pop ('Denis')
+print(a)
+my_set = set({1,2,3,'Urban',2,3,4,'Denis',True,False})
+print(my_set)
+my_set.add(100)
+my_set.add('Moscow')
+print(my_set)
+my_set.discard('Moscow')
+print(my_set)
+
